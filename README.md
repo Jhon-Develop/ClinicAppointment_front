@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# <div align="center">CordiSimpleRiwi
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center"><img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2017/08/NET.png?width=1200&enable=upscale" alt="Image Description" width="300"></div>
 
-## Available Scripts
+<p align="justify">This project is made in order to better serve people and to provide a higher quality of care and improve the efficiency and way of working of our employees and doctors by improving the quality of technologies.</p>
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- **C#:** PHP framework for building modern web applications.
+- **MySQL:** Database management system for storing users, reservations and events.
+- **Jwt:** Jwt is a token based authentication system that is used to authenticate users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Jhon-Develop/CordiSimple.git
+```
+Clone the repository, preferably using the SSH security key or you can also use the HTTPS method.
+<p align="center"><img src="https://happygitwithr.com/img/github-https-or-ssh-url-annotated.png" width="600" alt="example-clone-repository"></p>
 
-### `npm test`
+2. **Navigate to the Project Directory:**
+```bash
+cd CordiSimple
+```
+3. **Switch to Your Working Branch:**
+```bash
+git checkout -b yourBranchName
+```
+4. **If necessary, Fetch the Latest Changes:**
+```bash
+git pull origin develop
+```
+5. **Install Project Dependencies:**
+```bash
+composer install
+npm install
+```
+6. **Set up the environment file:**
+```bash
+cp .env.example .env
+```
+7. **Generate the application key:**
+```bash
+php artisan key:generate
+```
+8. **Set up the database and run migrations:**
+```bash
+php artisan migrate
+```
+9. **If you want you can load the seed data:**
+```bash
+php artisan db:seed
+```
+10. **Run the development server and build the frontend:**
+```bash
+composer run dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
